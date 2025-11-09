@@ -4,24 +4,24 @@ accepting: {q3}
 q0 (_ , _ -> $, q1)
 q1 (_ , _ -> S, q2)
 
-q2 (_ , S -> XA, q2)
-q2 (_ , S -> BY, q2)
+q2 (_ , S -> AX, q2)
+q2 (_ , S -> YB, q2)
 q2 (_ , S -> ZbZaZ, q2)
 
-q2 (_ , A -> Aa, q2)
+q2 (_ , A -> aA, q2)
 q2 (_ , A -> _, q2)
 
-q2 (_ , B -> Bb, q2)
+q2 (_ , B -> bB, q2)
 q2 (_ , B -> _, q2)
 
 q2 (_ , X -> a, q2)
-q2 (_ , X -> bXa, q2)
+q2 (_ , X -> aXb, q2)
 
 q2 (_ , Y -> b, q2)
-q2 (_ , Y -> bYa, q2)
+q2 (_ , Y -> aYb, q2)
 
-q2 (_ , Z -> Za, q2)
-q2 (_ , Z -> Zb, q2)
+q2 (_ , Z -> aZ, q2)
+q2 (_ , Z -> bZ, q2)
 q2 (_ , Z -> _, q2)
 
 q2 (a , a -> _, q2)
