@@ -1,5 +1,5 @@
 alphabet: {0, 1}
 start: q0
-accepting: {q4} 
+accepting: {q1} 
 q0 (_ , _ -> $, q1)
 
