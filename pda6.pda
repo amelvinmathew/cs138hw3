@@ -1,6 +1,6 @@
 alphabet: {a, b}
 start: q0
-accepting: q3
+accepting: {q3}
 q0 (_ , _ -> $, q1)
 q1 (_ , _ -> S, q2)
 q2 (_ , S -> XA, q2)
